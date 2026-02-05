@@ -6,6 +6,7 @@ import InputField from '@/components/forms/InputField';
 import Footer from '@/components/forms/Footer';
 import {toast} from "sonner";
 import {useRouter} from "next/navigation";
+import { signInWithEmail } from '@/lib/actions/auth.actions';
 
 const SignIn = () => {
     const router = useRouter()
