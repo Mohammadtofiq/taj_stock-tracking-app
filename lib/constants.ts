@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
     { href: '/', label: 'Dashboard' },
     { href: '/search', label: 'Search' },
-    // { href: '/watchlist', label: 'Watchlist' },
+    { href: '/watchlist', label: 'Watchlist' },
 ];
 
 // Sign-up form select options
@@ -336,21 +336,4 @@ export const WATCHLIST_TABLE_HEADER = [
     'P/E Ratio',
     'Alert',
     'Action',
-];
-
-export const COUNTRY_OPTIONS = [
-    { value: 'US', label: 'United States' },
-    { value: 'CA', label: 'Canada' },
-    { value: 'GB', label: 'United Kingdom' },
-    { value: 'AU', label: 'Australia' },
-    { value: 'DE', label: 'Germany' },
-    { value: 'FR', label: 'France' },
-    { value: 'JP', label: 'Japan' },
-    { value: 'CN', label: 'China' },
-    { value: 'IN', label: 'India' },
-    { value: 'BR', label: 'Brazil' },
-    { value: 'ZA', label: 'South Africa' },
-    { value: 'RU', label: 'Russia' },
-    { value: 'MX', label: 'Mexico' },
-    { value: 'KR', label: 'South Korea' }
 ];
